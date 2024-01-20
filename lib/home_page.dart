@@ -34,7 +34,6 @@ class HomePage extends StatelessWidget {
                 'SetState',
                 style: TextStyle(color: Colors.white),
               ),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
             ),
             ElevatedButton(
               onPressed: () => _goTopage(context, ValueNotifierPage()),
@@ -42,7 +41,6 @@ class HomePage extends StatelessWidget {
                 'ValueNotifier',
                 style: TextStyle(color: Colors.white),
               ),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
             ),
             ElevatedButton(
               onPressed: () => _goTopage(context, ChangeNotifierPage()),
@@ -50,7 +48,6 @@ class HomePage extends StatelessWidget {
                 'ChangeNotifier',
                 style: TextStyle(color: Colors.white),
               ),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
             ),
             ElevatedButton(
               onPressed: () => _goTopage(context, BlocPatternPage()),
@@ -58,7 +55,6 @@ class HomePage extends StatelessWidget {
                 'bloc Pattern (Stream)',
                 style: TextStyle(color: Colors.white),
               ),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
             ),
           ],
         ),

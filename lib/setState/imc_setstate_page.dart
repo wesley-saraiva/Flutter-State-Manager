@@ -43,7 +43,6 @@ class _ImcSetstatePageState extends State<ImcSetstatePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Imc SetState'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: SingleChildScrollView(
         child: Form(

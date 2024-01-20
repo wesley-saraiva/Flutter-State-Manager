@@ -40,7 +40,6 @@ class _ValueNotifierPageState extends State<ValueNotifierPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Imc ValueNotifier'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: SingleChildScrollView(
         child: Form(

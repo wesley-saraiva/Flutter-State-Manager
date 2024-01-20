@@ -39,7 +39,6 @@ class _ChangeNotifierPageState extends State<ChangeNotifierPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Imc ChangeNotifier'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: SingleChildScrollView(
         child: Form(
